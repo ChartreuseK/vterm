@@ -1,0 +1,8 @@
+# vterm
+
+A vintage style terminal emulator using a fixed bitmap font with scanlines using SDL2. 
+
+The terminal supports many ansi escape codes and works well with most linux programs, such as vim, htop, elinks, and nano. 
+It currently operates at a fixed size of 80x25 with no scaling. Though it could be modified to allow for integer or fractional resizing using SDL's window creation options in disp.c
+
+This terminal is more of a toy/hobby project so I do not recommend using this as your daily driver terminal, but more as something to learn from or play around with, or reuse code from in other projects.
